@@ -1,0 +1,208 @@
+/* this file is loaded by index.html and styles the page */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #fdf5e6;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  color: #808080;
+  line-height: 1.1;
+}
+
+h4 {
+  margin-top: 0px;
+}
+
+p {
+  margin-top: 0px;
+}
+
+form {
+  background-color: #eee;
+  display: grid;
+  grid-gap: 1em;
+  padding: 1em;
+  max-width: 40ch;
+}
+
+input {
+  border: 1px solid silver;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+form button {
+  background-color: #bbbbf2;
+  border: 2px solid currentColor;
+  border-radius: .25em;
+  cursor: pointer;
+  font-size: inherit;
+  line-height: 1.4em;
+  padding: 0.25em 1em;
+  max-width: 20ch;
+}
+
+form button:hover {
+  background-color: blue;
+}
+
+footer {
+  display: flex;
+  position: relative;
+  bottom: 0; /*下に固定*/
+  width: 100%;
+  padding: 0.5em;
+  background: #fff;
+  border-top: 1px solid lightgrey;
+  justify-content: center;
+}
+footer span{
+  color: lightgrey;
+  font-size: 0.8em;
+}
+
+header{
+  z-index: 999999;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  margin: 0;
+  padding: 1em 0;
+  justify-content: center;
+}
+header span{
+  color: #ffc0cb;
+  font-size: 1.5em;
+}
+header input{
+  background: none;
+  border: none;
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  cursor: pointer;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+.all-area{
+  margin-top: 4.25em;
+  height: auto;
+}
+.area-1{
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 1em;
+  padding-bottom: 2em;
+  background: #fdf5e6;
+  flex-direction: column;
+  align-items: center;
+}
+.area-2{
+  display: flex;
+  width: 100%;
+  height: auto;
+  pedding: 1em;
+  padding-bottom: 2em;
+  background: #ffffe0;
+  flex-direction: column;
+  align-items: center;
+}
+.small-area{
+  padding: 1em;
+}
+.profile-message{
+  line-height: 1.5;
+}
+.work{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image-area{
+  position: relative;
+  width: 16em;
+  height: 12em;
+  margin: 0.3em;
+}
+.skill-set{
+  display: flex;
+  margin-bottom: 1em;
+}
+.skill-set div{
+  position: relative;
+  width: 2.5em;
+  height: 2.5em;
+  margin: 0.3em;
+}
+.skill-set div img{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+
+/* Myhandmades_message */
+.demo-area{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.demo-area a{
+  text-decoration: none;
+}
+.outline-area{
+  display: flex;
+  flex-direction: column;
+}
+.outline-message{
+  margin: 1em;
+}
+.outline-image{
+  position: relative;
+  width: 24em;
+  height: 16em;
+  margin-right: auto;
+  margin-left: auto;
+}
+.outline-image img{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;  
+}
+.app-message-area{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app-message{
+  text-align: center;
+}
+.return-button{
+  font-size: 2.5em;
+  color: #ffc0cb;
+  line-height: 0.8;
+  margin-top: 0.5em;
+}

@@ -12,6 +12,10 @@ html, body {
 }
 
 h1 {
+  padding: 0.5em;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
   color: #808080;
   line-height: 1.1;
 }
@@ -137,8 +141,8 @@ img{
 }
 .image-area{
   position: relative;
-  width: 16em;
-  height: 12em;
+  max-width: 16em;
+  max-height: 12em;
   margin: 0.3em;
 }
 .skill-set{
@@ -173,13 +177,17 @@ img{
 .outline-area{
   display: flex;
   flex-direction: column;
+  width: 95%;
+  max-width: 52em;
 }
 .outline-message{
+  width: 95%;
+  max-width: 52em;
   margin: 1em;
 }
 .outline-image{
   position: relative;
-  width: 24em;
+  max-width: 24em;
   height: 16em;
   margin-right: auto;
   margin-left: auto;
@@ -199,6 +207,7 @@ img{
 }
 .app-message{
   text-align: center;
+  padding: 0.5em;
 }
 .return-button{
   font-size: 2.5em;

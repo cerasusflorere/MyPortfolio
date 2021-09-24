@@ -141,12 +141,15 @@ img{
 }
 .work-1{
   font-family:"edwardian script itc";
-  font-size: 3em;
+  font-size: 2em;
   font-weight: lighter;
+  line-height: 1;
   color: #ffb6c1;
 }
 .work-1-1{
-  font-size: 5em;
+  font-size: 3em;
+  margin: 0;
+  padding: 0;
 }
 .image-area{
   position: relative;

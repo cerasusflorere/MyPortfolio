@@ -177,8 +177,28 @@ img{
   flex-direction: column;
   align-items: center;
 }
-.demo-area a{
+.demo-area .demo-area-in{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.demo-area .demo-area-in a{
   text-decoration: none;
+}
+.demo-area .demo-area-in div{
+  position: relative;
+  width: 4em;
+  height: 4em;
+  margin-left: 1em;  
+}
+.demo-area .demo-area-in div img{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;    
 }
 .outline-area{
   display: flex;

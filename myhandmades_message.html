@@ -17,6 +17,7 @@
       
       <div class='all-area'>
         <div class='area-1'>
+          <a href='/MyPortfolio/index.html' class='return-button-top'><i class="fas fa-arrow-alt-circle-left"></i></a>
           <h1 class='work-1 work-1-1'>
             Myhandmades
           </h1>
@@ -176,15 +177,110 @@
         
         <div class='area-1'>
           <h1 class='app-message-area'>
-            Why I made this app?
+            Concept
           </h1>
-          <div class='app-message'>
-            私は手芸作品のデザインを決めるとき、Instagramやハンドメイド販売サイトを閲覧しています。<br>
-            しかし、なかなか使用した素材や技法など得たい情報が載っていないのが実情です。<br>
-            そこで、手芸作品に特化したSNSであれば自分の作品の管理ツールとしても使用でき、<br>
-            それを共有することで、さらに創作の幅が広がるのでは、と考えました。
+          <span class='app-concept'>「あなたが繋ぐ創作の輪」</span>
+          <div class='app-message-area2'>
+            <div class='app-messages'>
+              <div class='app-message-title'>
+                課題
+              </div>
+              <div class='app-messages-area'>
+                <div class='app-message'>
+                  <i class="fas fa-times fa-fw"></i>写真と文章がバラバラに保存される！
+                </div>
+                <div class='app-message'>
+                  <i class="fas fa-times fa-fw"></i>デザインが偏る！
+                </div>
+                <div class='app-message'>
+                  <i class="fas fa-times fa-fw"></i>新しい技術の知り方が分からない！
+                </div>
+                <div class='app-message'>
+                  <i class="fas fa-times fa-fw"></i>他の人と共有したい！
+                </div>
+              </div>
+            </div>
+            <div class='app-messages'>
+              <div class='app-message-title'>
+                <span class='work-1'>Myhandmades</span>を使ったら…
+              </div>
+              <div class='app-messages-area'>
+                <div class='app-message'>
+                  <i class="far fa-thumbs-up fa-fw"></i>写真と文章が一緒に保存される！
+                </div>
+                <div class='app-message'>
+                  <i class="far fa-thumbs-up fa-fw"></i>あなたもみんなもデザインの幅が広がる！
+                </div>
+                <div class='app-message'>
+                  <i class="far fa-thumbs-up fa-fw"></i>あなたもみんなも新しい技術を知れる！
+                </div>
+                <div class='app-message'>
+                  <i class="far fa-thumbs-up fa-fw"></i>他のユーザーと共有できる！しかも投稿ごとに公開、非公開を選べる！
+                </div>
+              </div>
+            </div>
+            <div class='app-messages'>
+              <div class='app-message-title'>
+                こだわり
+              </div>
+              <div class='app-messages-area'>
+                <div class='app-message'>
+                  <i class="fas fa-check fa-fw"></i>制作方法をタグに
+                </div>
+                <div class='app-message'>
+                  <i class="fas fa-check fa-fw"></i>タグ（制作方法）をユーザーが追加できる
+                </div>
+                <div class='app-message'>
+                  <i class="fas fa-check fa-fw"></i>タグ（制作方法）ごとに投稿数をカウントする
+                </div>
+                <div class='app-message'>
+                  <i class="fas fa-check fa-fw"></i>公開時にusernameを出さない
+                </div>
+              </div>
+            </div>
+            <div class='app-messages'>
+              <div class='app-message-title'>
+                苦労した点
+              </div>
+              <div class='app-messages-area'>
+                <div class='app-message'>
+                  <i class="far fa-lightbulb fa-fw"></i>
+                  <div class='app-message-detail'>
+                    <div class='app-message-detail-trouble'>
+                      iPhoneとWindowsでのUIの違い<br>
+                      お気に入り機能において、iPhoneではお気に入り登録前はcheckboxが消えず、お気に入り登録後はcheckboxが消える。
+                    </div>
+                    <div class='app-message-detail-measure'>
+                      <div>
+                        対応策：
+                      </div>
+                      <div>
+                        checkboxの疑似クラスは使用せずに、divタグで☆と★を描き、お気に入り登録状況に連動させる。
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class='app-message'>
+                  <i class="far fa-lightbulb fa-fw"></i>
+                  <div class='app-message-detail'>
+                    <div class='app-message-detail-trouble'>
+                      編集機能を各作品ごとに独立させること<br>
+                      編集ボタンにidをつけると、onclickイベントにおいて、引数が作品IDではなく、編集ボタンのidになる。
+                    </div>
+                    <div class='app-message-detail-measure'>
+                      <div>
+                        対応策：
+                      </div>
+                      <div>
+                        モーダルウィンドウをinputタグid属性とlabelタグfor属性を連動させて表示するのでなく、aタグのhref属性から表示させることで、id属性をつけない。
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <a href='/MyPortfolio/index.html' class='return-button'><i class="fas fa-arrow-alt-circle-left"></i></a>
+          <a href='/MyPortfolio/index.html' class='return-button-bottom'><i class="fas fa-arrow-alt-circle-left"></i></a>
         </div> 
         
       </div>

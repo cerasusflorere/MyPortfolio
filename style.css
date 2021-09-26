@@ -178,21 +178,32 @@ img{
 
 
 /* Myhandmades_message */
+/* ホームページへ */
+/* Glitch */
 .demo-area{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.demo-area .demo-area-in{
+.demo-area-in{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+.demo-url{
+  display: flex;
+  align-items: baseline;
+}
+.demo-area i{
+  color: #ffc0cb;
+  margin: 0.15em;
+}
 .demo-area a{
   text-decoration: none;
+  color: #484848;
 }
-.demo-area .demo-area-in div{
+.demo-area .demo-area-in .demo-qr{
   position: relative;
   width: 4em;
   height: 4em;
@@ -206,6 +217,21 @@ img{
   bottom: 0;
   margin: auto;    
 }
+/* GitHub */
+.code-area{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.code-area i{
+  color: #ffc0cb;
+  margin: 0.15em;
+}
+.code-area a{  
+  text-decoration: none;
+  color: #484848;
+}
+/* outline */
 .outline-area{
   display: flex;
   flex-direction: column;
@@ -232,18 +258,65 @@ img{
   bottom: 0;
   margin: auto;  
 }
+/* アプリ説明 */
 .app-message-area{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.app-message{
-  text-align: center;
-  padding: 0.5em;
+.app-concept{
+  font-size:1.5em;
 }
-.return-button{
+.app-message-area2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+}
+.app-message-area2 i{
+  color: #db7093;
+}
+.app-messages{
+  margin: 1em;
+}
+.app-message-title{
+  font-size: 1.1em;
+}
+/* Myhandomades */
+.app-message-title span{
+  font-size: 1.3em;
+  padding-right: 0.2em;
+}
+.app-messages-area{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.app-message{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.app-message-detail-measure{
+  margin-left: 2em;
+}
+/* indexへ */
+.return-button-top{
+  font-size: 2.5em;
+  color: #ffc0cb;
+  line-height: 0.8;
+  margin: 0.3em;
+}
+.return-button-bottom{
   font-size: 2.5em;
   color: #ffc0cb;
   line-height: 0.8;
   margin-top: 0.5em;
+}
+
+/* 695px以下に適用されるCSS（スマホ用） */
+@media screen and (max-width: 695px) {
+  .app-message-area2{
+    width: 90%
+  }
 }

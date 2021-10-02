@@ -14,11 +14,26 @@
       <header>
         <span>Hanaka's Portfolio</span>
         <input type='button' onclick="home()"/>
+        
+        <div class="hamburger-menu">
+          <input type="checkbox" id="menu-btn-check"/>
+          <label for="menu-btn-check" class="menu-btn"><span></span></label>
+          <!--ここからメニュー-->
+          <div class="menu-content">
+            <ul>
+              <li><a href="#my_profile">My profile</a></li>
+              <li><a href="#my_work">My work</a></li>
+              <li><a href="#my_skill_set">My skill set</a></li>
+            </ul>
+          </div>
+          <!--ここまでメニュー-->
+        </div>
       </header>
       
       <div class='all-area'>
         
         <div class='area-1'>
+          <a class='move profile' name='my_profile'></a>
           <h1>
             My profile
           </h1>
@@ -31,6 +46,7 @@
         </div>
         
         <div class='area-2'>
+          <a class='move work' name='my_work'></a>
           <h1>
             My work
           </h1>
@@ -47,6 +63,7 @@
         </div>
         
         <div class='area-1'>
+          <a class='move myskill' name='my_skill_set'></a>
           <h1>
             My skill set
           </h1>

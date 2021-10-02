@@ -110,9 +110,9 @@ img{
   height: auto;
 }
 .move{
-  position: absolute;
-  width: 100%;
-  height: 1em;  
+  display: block;
+  padding-top: 4.25em;
+  margin-top: -4.25em;  
 }
 .area-1{
   display: flex;
@@ -123,15 +123,6 @@ img{
   background: #fdf5e6;
   flex-direction: column;
   align-items: center;
-}
-.profile{
-  top: 1em;
-}
-.work{
-  top: 45%;
-}
-.myskill{
-  top: 110%;
 }
 .area-2{
   display: flex;
@@ -406,8 +397,28 @@ img{
   right: 0;/*メニューを画面内へ*/
 }
 
+
+
+/* 980px以下に適用されるCSS（タブレット用） */
+@media screen and (max-width: 980px) {
+  /* ハンバーガーメニュー */
+  .menu-content {
+    width: 10em;
+  }
+  .menu-content ul {
+    padding: 3em 0.625em 0;
+  }
+}
+
 /* 695px以下に適用されるCSS（スマホ用） */
 @media screen and (max-width: 695px) {
+  /* ハンバーガーメニュー */
+  .menu-content {
+    width: 10em;
+  }
+  .menu-content ul {
+    padding: 3em 0.625em 0;
+  }
   .app-message-area2{
     width: 90%
   }

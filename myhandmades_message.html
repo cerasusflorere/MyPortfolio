@@ -13,11 +13,27 @@
       <header>
         <span>Hanaka's Portfolio</span>
         <input type='button' onclick="home()"/>
+        <div class="hamburger-menu">
+          <input type="checkbox" id="menu-btn-check"/>
+          <label for="menu-btn-check" class="menu-btn"><span></span></label>
+          <!--ここからメニュー-->
+          <div class="menu-content">
+            <ul>
+              <li><a href="#myhandmades">Myhandmades</a></li>
+              <li><a href="#demo">Demo & Source code</a></li>
+              <li><a href="#customer_journey">Customer journey</a></li>
+              <li><a href="#skill">Skill</a></li>
+              <li><a href="#concept">Concept</a></li>
+            </ul>
+          </div>
+          <!--ここまでメニュー-->
+        </div>
       </header>
       
       <div class='all-area'>
         <div class='area-1'>
           <a href='/MyPortfolio/index.html' class='return-button-top'><i class="fas fa-arrow-alt-circle-left"></i></a>
+          <a class='move' name='myhandmades'></a>
           <h1 class='work-1 work-1-1'>
             Myhandmades
           </h1>
@@ -27,6 +43,7 @@
         </div>
         
         <div class='area-2'>
+          <a class='move' name='demo'></a>
           <h1>
             Demo & Source code
           </h1>
@@ -53,8 +70,9 @@
         </div>
         
         <div class='area-1'>
-          <h1>
-            Outline this app
+          <a class='move' name='customer_journey'></a>
+          <h1> 
+　　　　　　 Customer journey
           </h1>
           <div class='outline-area'>
             <div class='outline-message'>
@@ -134,6 +152,7 @@
         </div>
         
         <div class='area-2'>
+          <a class='move' name='skill'></a>
           <h1>
             Skill
           </h1>
@@ -180,6 +199,7 @@
         </div>
         
        <div class='area-1'>
+         <a class='move' name='concept'></a>
           <h1 class='app-message-area'>
             Concept
           </h1>

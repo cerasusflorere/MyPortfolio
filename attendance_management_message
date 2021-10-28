@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Myhandmades message</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="favicon" rel="icon" href="https://cdn.glitch.com/322520fa-8017-41bc-b8aa-963b614488d0%2Ffavicon.png?v=1632621495814" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+    <div>
+      <header>
+        <span>Hanaka's Portfolio</span>
+        <input type='button' onclick="home()"/>
+        
+        <div class="hamburger-menu">
+          <input type="checkbox" id="menu-btn-check"/>
+          <label for="menu-btn-check" class="menu-btn"><span></span></label>
+          <!--ここからメニュー-->
+          <div class="menu-content">
+            <ul>
+              <li><a href="#myhandmades">来校ログ</a></li>
+              <li><a href="#demo">Demo & Source code</a></li>
+              <li><a href="#customer_journey">Customer journey</a></li>
+              <li><a href="#skill">Skill</a></li>
+              <li><a href="#concept">Concept</a></li>
+            </ul>
+          </div>
+          <!--ここまでメニュー-->
+        </div>
+      </header>
+      
+      <div class='all-area'>
+        
+        <div class='area-1'>
+          <a href='/' class='return-button-top'><i class="fas fa-arrow-alt-circle-left"></i></a>
+          <a class='move' name='myhandmades'></a>
+          <h1 class='attendance_management_font attendance_management_font-1'>
+            来校ログ
+          </h1>
+          <div style='padding: 0.5em;  text-align: center;'>
+            来校ログアプリはいつ誰が登校し、どこへ立ち寄ったか登録・管理するアプリです。
+          </div>          
+        </div>
+        
+        <div class='area-2'>
+          <a class='move' name='demo'></a>
+          <h1>
+            Demo & Source code
+          </h1>
+          <div>
+            <div class='demo-area' style='margin-bottom: 1em;'>
+              <div class='demo-area-in'>
+                <div class='demo-url'>
+                  <i class="fas fa-video fa-fw"></i>
+                  <a href="https://attendance-management.cerasusflorere.com/">Demo</a>
+                </div>                
+                <div class='demo-qr'>
+                  <img src="attendance-management.png"/>
+                </div>
+              </div>
+            </div>
+            <div class='code-area'>
+              <i class="fab fa-github fa-fw"></i>
+              <a href="https://github.com/cerasusflorere/attendance_management_local">GitHub</a>
+            </div>            
+          </div>
+        </div>
+        
+        <div class='area-1'>
+          <a class='move' name='customer_journey'></a>
+          <h1> 
+　　　　　　 Customer journey
+          </h1>
+          <div class='outline-area'>
+            <div class='outline-message'>
+              <div class='outline-title'>
+                1. Home<br>
+                   来校情報を閲覧するのか、登録するのか選びます。今回は登録してから閲覧します。
+              </div>
+              <div class='outline-image'>
+                <img src="/MyPortfolio/Home_attendance_management.png"/>
+              </div>
+            </div>
+            
+            <div class='outline-message'>
+              <div class='outline-title'>
+                2. Resister -Select<br>
+                   学年等を選択→名前を選択→日時を選択→健康チェック→立ち寄った場所を選択→「確認する」ボタン<br>
+                   今回の登録内容は<br>
+                   ・M1<br>
+                   ・林美樹<br>
+                   ・2021/10/28<br>
+                   ・10:00~17:30に登校<br>
+                   ・立ち寄った場所:IN401N、IN501N、早見先生のお部屋、食堂
+              </div>
+              <div class='outline-image'>
+                <img src="Resister page1.png"/>
+              </div>
+            </div>
+            <div class='outline-message'>
+              <div class='outline-title'>
+                2. Resister -Confirm<br>
+                   登録内容を確認してください。
+              </div>
+              <div class='outline-image'>
+                <img src="Resister page2.png"/>
+              </div>
+            </div>            
+            <div class='outline-message'>
+              <div class='outline-title'>
+                2. Resister -Complete<br>
+                   登録できました。
+              </div>
+              <div class='outline-image'>
+                <img src="Resister page3.png"/>
+              </div>
+            </div>
+            
+            <div class='outline-message'>
+              <div class='outline-title'>
+                3. Management<br>
+                   来校ログ一覧
+              </div>
+              <div class='outline-image'>
+                <img src="Management.png"/>
+              </div>
+            </div>
+            <div class='outline-message'>
+              <div class='outline-title'>
+                3. Management -Check<br>
+                   先程登録した内容は登録されています。<br>
+                   スクロールすると、表の一部が画面端に固定されます。
+              </div>
+              <div class='outline-image'>
+                <img src="place_confirm.png"/>
+              </div>
+            </div>
+            
+            <div class='outline-message'>
+              <div class='outline-title'>
+                3. Management -2weeks<br>
+                   閲覧期間を選択でき、「2週間」を選択しました。（作成日：2021/10/28）
+              </div>
+              <div class='outline-image'>
+                <img src="2week.png"/>
+              </div>
+            </div>
+            
+            <div class='outline-message'>
+              <div class='outline-title'>
+                3. Management -1month<br>
+                   閲覧期間を選択でき、「1ヵ月」を選択しました。（作成日：2021/10/28）
+              </div>
+              <div class='outline-image'>
+                <img src="1month.png"/>
+              </div>
+            </div>
+          
+            <div class='outline-message'>
+              <div class='outline-title'>
+                3. Management -1year<br>
+                   閲覧期間を選択でき、「1年」を選択しました。（作成日：2021/10/28）
+              </div>
+              <div class='outline-image'>
+                <img src="1year.png"/>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+        
+        <div class='area-2'>
+          <a class='move' name='skill'></a>
+          <h1>
+            Skill
+          </h1>
+          <div class='skill-sets-area'>
+            <div class='skill-group'>
+              <span>front side</span>
+               <div class='skill-set'>
+                 <div>
+                   <img src="html-5.png"/>
+                 </div>
+                 <div>
+                   <img src="css-3.png"/>
+                 </div>
+                 <div>
+                   <img src="javascript.png"/>
+                 </div>
+              </div>     
+            </div>
+            <div class='skill-group'>
+              <span>server side</span>
+              <div class='skill-set'>
+                <div>
+                  <img src="php.png"/>
+                </div>
+              </div>
+            </div>
+            <div class='skill-group'>
+              <span>DB</span>
+              <div class='skill-set'>
+                <div>
+                  <img src="mysql.png"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class='area-1'>
+          <a class='move' name='concept'></a>
+          <h1 class='app-message-area'>
+            Concept
+          </h1>
+          <span class='app-concept'>「こまめに登録、忘れません」</span>
+          <div class='app-message-area2'>
+            <div class='app-messages'>
+              <div class='app-message-title'>
+                課題
+              </div>
+              <div class='app-messages-area'>
+                <div class='app-message'>
+                  <i class="fas fa-times fa-fw"></i>エクセルで管理すると、スマートフォンから登録しづらい...
+                </div>
+                <div class='app-message'>
+                  <i class="fas fa-times fa-fw"></i>帰宅後は忘れてしまう...
+                </div>
+                <div class='app-message'>
+                  <i class="fas fa-times fa-fw"></i>名前も日時も来校場所も毎回打つのが大変...
+                </div>
+                <div class='app-message'>
+                  <i class="fas fa-times fa-fw"></i>パソコンでも開けた場所によっては操作しづらい...
+                </div>
+              </div>
+            </div>
+            <div class='app-messages'>
+              <div class='app-message-title'>
+                <span class='attendance_management_font'>来校ログ</span>を使ったら…
+              </div>
+              <div class='app-messages-area'>
+                <div class='app-message'>
+                  <i class="far fa-thumbs-up fa-fw"></i>スマートフォンからでも操作しやすい！
+                </div>
+                <div class='app-message'>
+                  <i class="far fa-thumbs-up fa-fw"></i>スマートフォンからでも操作しやすいから電車の中でも登録できる！だから忘れない！
+                </div>
+                <div class='app-message'>
+                  <i class="far fa-thumbs-up fa-fw"></i>来校登録は選択するだけだから簡単！
+                </div>
+              </div>
+            </div>
+            <div class='app-messages'>
+              <div class='app-message-title'>
+                こだわり
+              </div>
+              <div class='app-messages-area'>
+                <div class='app-message'>
+                  <i class="fas fa-check fa-fw"></i>スマートフォンでもPCと同じくらい見やすい画面に
+                </div>
+                <div class='app-message'>
+                  <i class="fas fa-check fa-fw"></i>閲覧と登録を分けることで見やすく、使いやすく
+                </div>
+                <div class='app-message'>
+                  <i class="fas fa-check fa-fw"></i>選択方式にすることで入力箇所を極力減らす
+                </div>
+                <div class='app-message'>
+                  <i class="fas fa-check fa-fw"></i>所属人数が50人を超えるので、名前の選択は予め絞り込む
+                </div>
+                <div class='app-message'>
+                  <i class="fas fa-check fa-fw"></i>閲覧期間を選択できる
+                </div>
+              </div>
+            </div>
+            <div class='app-messages'>
+              <div class='app-message-title'>
+                苦労した点
+              </div>
+              <div class='app-messages-area'>
+                <div class='app-message'>
+                  <i class="far fa-lightbulb fa-fw"></i>
+                  <div class='app-message-detail'>
+                    <div class='app-message-detail-trouble'>
+                      ローカル環境から本番環境への移行<br>
+                      ローカル環境ではVisual Studio Code、XAMPPを用いて開発しました。<br>
+                      ローカル環境から本番環境への移行作業は初めてで、全くやり方が分かりませんでした。
+                    </div>
+                    <div class='app-message-detail-measure'>
+                      <div>
+                        対応策：
+                      </div>
+                      <div>
+                        WordPressの移行作業を説明するホームページは多かったので、WordPress特有のものかそうでないのか切り分けながら読みました。<br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <a href='/' class='return-button-bottom'><i class="fas fa-arrow-alt-circle-left"></i></a>
+        </div> 
+        
+      </div>
+      
+      <footer>
+        <span>Copyright Hanaka All Rights Reserved</span>
+      </footer>
+    </div>
+    
+    <script>
+      function home(){
+         scrollTo(0, 0);
+      }
+    </script>
+  </body>
+</html>

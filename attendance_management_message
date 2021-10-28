@@ -57,7 +57,7 @@
                   <a href="https://attendance-management.cerasusflorere.com/">Demo</a>
                 </div>                
                 <div class='demo-qr'>
-                  <img src="attendance-management.png"/>
+                  <img src="/MyPortfolio/attendance-management.png"/>
                 </div>
               </div>
             </div>
@@ -96,7 +96,7 @@
                    ・立ち寄った場所:IN401N、IN501N、早見先生のお部屋、食堂
               </div>
               <div class='outline-image'>
-                <img src="Resister page1.png"/>
+                <img src="/MyPortfolio/Resister page1.png"/>
               </div>
             </div>
             <div class='outline-message'>
@@ -105,7 +105,7 @@
                    登録内容を確認してください。
               </div>
               <div class='outline-image'>
-                <img src="Resister page2.png"/>
+                <img src="/MyPortfolio/Resister page2.png"/>
               </div>
             </div>            
             <div class='outline-message'>
@@ -114,7 +114,7 @@
                    登録できました。
               </div>
               <div class='outline-image'>
-                <img src="Resister page3.png"/>
+                <img src="/MyPortfolio/Resister page3.png"/>
               </div>
             </div>
             
@@ -124,7 +124,7 @@
                    来校ログ一覧
               </div>
               <div class='outline-image'>
-                <img src="Management.png"/>
+                <img src="/MyPortfolio/Management.png"/>
               </div>
             </div>
             <div class='outline-message'>
@@ -134,7 +134,7 @@
                    スクロールすると、表の一部が画面端に固定されます。
               </div>
               <div class='outline-image'>
-                <img src="place_confirm.png"/>
+                <img src="/MyPortfolio/place_confirm.png"/>
               </div>
             </div>
             
@@ -144,7 +144,7 @@
                    閲覧期間を選択でき、「2週間」を選択しました。（作成日：2021/10/28）
               </div>
               <div class='outline-image'>
-                <img src="2week.png"/>
+                <img src="/MyPortfolio/2week.png"/>
               </div>
             </div>
             
@@ -154,7 +154,7 @@
                    閲覧期間を選択でき、「1ヵ月」を選択しました。（作成日：2021/10/28）
               </div>
               <div class='outline-image'>
-                <img src="1month.png"/>
+                <img src="/MyPortfolio/1month.png"/>
               </div>
             </div>
           
@@ -164,7 +164,7 @@
                    閲覧期間を選択でき、「1年」を選択しました。（作成日：2021/10/28）
               </div>
               <div class='outline-image'>
-                <img src="1year.png"/>
+                <img src="/MyPortfolio/1year.png"/>
               </div>
             </div>
       
@@ -181,13 +181,13 @@
               <span>front side</span>
                <div class='skill-set'>
                  <div>
-                   <img src="html-5.png"/>
+                   <img src="/MyPortfolio/html-5.png"/>
                  </div>
                  <div>
-                   <img src="css-3.png"/>
+                   <img src="/MyPortfolio/css-3.png"/>
                  </div>
                  <div>
-                   <img src="javascript.png"/>
+                   <img src="/MyPortfolio/javascript.png"/>
                  </div>
               </div>     
             </div>
@@ -195,7 +195,7 @@
               <span>server side</span>
               <div class='skill-set'>
                 <div>
-                  <img src="php.png"/>
+                  <img src="/MyPortfolio/php.png"/>
                 </div>
               </div>
             </div>
@@ -203,7 +203,7 @@
               <span>DB</span>
               <div class='skill-set'>
                 <div>
-                  <img src="mysql.png"/>
+                  <img src="/MyPortfolio/mysql.png"/>
                 </div>
               </div>
             </div>
